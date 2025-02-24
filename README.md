@@ -33,9 +33,8 @@ It uses a dictionary to map city names to coordinates, a list to store the compu
 Limitations & Improvements:
 As a heuristic, the greedy approach does not guarantee a globally optimal route and is sensitive to the starting city. Future improvements include 2-opt/3-opt local search, metaheuristics (like simulated annealing or genetic algorithms), and incorporation of real-world constraints (e.g., traffic, delivery windows).
 
-Our solution goes beyond basic navigation. It:
-
-Integrates supply chain data (delivery performance, costs, etc.) into the routing decision.
-Uses custom constraints and objectives tailored to business needs.
-Leverages reinforcement learning to learn from historical data and provide proactive, context-specific insights.
-In short, it’s a domain-specific, customizable tool focused on business metrics rather than just distance or time.
+Our solution goes beyond basic navigation. It: 
+1. Integrates supply chain data (delivery performance, costs, etc.) into the routing decision.
+2. Uses custom constraints and objectives tailored to business needs.
+3. Leverages reinforcement learning to learn from historical data and provide proactive, context-specific insights.
+4. In short, it’s a domain-specific, customizable tool focused on business metrics rather than just distance or time.
